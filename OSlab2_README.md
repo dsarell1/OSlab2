@@ -4,4 +4,4 @@ This is my Second Lab Assignment for My Operating Systems class and I do not thi
 
 For Banker's Alogorithm There are 4 Important data structures that are needed. Allocation, Max, Available, and Need. Allocation is a Matrix of the number of resources that had already been allocated to each process. Max is a Matrix of the maximum number of resources that may be allocated to each process. Available is a vector or array of available instances of each resource. Finally, Need is a Matrix of the Max Matrix minus the Allocation Matrix, a Matrix of the number of resources that are needed for the process to complete.
 
-In my Program I first take data from 
+In my Program I first take data from an Input file (called bankersInput.txt), which has all the values of the Allocation Matrix, Max Matrix, and the Available array. It reads the Allocation Matrix into a 2-Dimensional array (Matrix), 
