@@ -1,3 +1,3 @@
 # OSlab2 -- Banker's Algorithm -- Dylan Sarell -- 11/17/22
 
-This is my Second Lab Assignment for My Operating Systems class and I do not think this lab was as hard as the first one. For this Assignment the goal was to create and ultialize banker's Algorithm to solve the Deadlock problem. 
+This is my Second Lab Assignment for My Operating Systems class and I do not think this lab was as hard as the first one. For this Assignment the goal was to create and ultialize banker's Algorithm to solve the Deadlock problem. Banker's Algorithm is used for deadlock Avoidance and to find the safe sequence of processes to complete without the system deadlocking. A Safe System means that there is not Deadlock, where two processes are locked because one process has the recource of a another running process and that process has a resource that one is waiting for. 
