@@ -13,7 +13,8 @@ First I created a 2 for loops to go through the number of processes. Next I have
 The Last part of the program outputs the data. It first checks if there are any processes which did not finish during the safety algortihm; the system is therefore in a unsafe state and a deadlock exists (Could not be avoided). So this info would be outputted to the console and will exit the program. If there are not processes that are unfinished then we output the system is safe and the safe sequence. It will print out the answer array via a for loop, and this would be sequence to complete the processes without encountering a deadlock. 
 
 # Example
-The Example system that is porvided has the following Allocation Matrix, Max Matrix and Available Vector:
+The Example system that is porvided has 5 processes (P0, P1, P2, P3, P4), 3 resource types (A, B, C) and the following Allocation Matrix, Max Matrix and Available Vector:
 
 ![bankersInput txt - dsarell1  SSH_ wasp cs kent edu  - Visual Studio Code 11_17_2022 8_21_48 PM](https://user-images.githubusercontent.com/116117025/202594873-827b638a-b88b-4603-a2c8-404b8ed8f659.png)
 
+This System is in a Safe State because by using Banker's Algorithm and the Safety Algorithm are able to determine a safe sequence to complete the processes in. The safe sequence is on the bottom of the picture 
