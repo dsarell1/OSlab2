@@ -8,4 +8,4 @@ In my Program I first take data from an Input file (called bankersInput.txt), wh
 
 The Safety Algorithm goes like this:
 
-First I created a 2 for loops to go through the number of processes. Next I have an if-statement to check if that process is not finished. 
+First I created a 2 for loops to go through the number of processes. Next I have an if-statement to check if that process is not finished. If the process is not finished then I check if it can be finished. I use another for loop to go through each resource for that process; I use a if-statement to see if that process requires more resources than that are available. If the process requires more resources than there is available the process can not finish and a variable flag would be set to 1. Then it will go to the next process to repeat the process. If process requires less resources than there are available, then the Process can finish and Flag stays at 0. 
