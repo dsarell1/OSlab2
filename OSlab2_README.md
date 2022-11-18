@@ -17,4 +17,6 @@ The Example system that is porvided has 5 processes (P0, P1, P2, P3, P4), 3 reso
 
 ![bankersInput txt - dsarell1  SSH_ wasp cs kent edu  - Visual Studio Code 11_17_2022 8_21_48 PM](https://user-images.githubusercontent.com/116117025/202594873-827b638a-b88b-4603-a2c8-404b8ed8f659.png)
 
-This System is in a Safe State because by using Banker's Algorithm and the Safety Algorithm are able to determine a safe sequence to complete the processes in. The safe sequence is on the bottom of the picture 
+This System is in a Safe State because by using Banker's Algorithm and the Safety Algorithm are able to determine a safe sequence to complete the processes in. The safe sequence is on the bottom of the picture, which goes P1 -> P3 -> P4 -> P0 -> P2. No Deadlock would be encountered if you complete the Processes in this order. 
+
+
