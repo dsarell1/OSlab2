@@ -64,10 +64,10 @@ int main(int argc, char** argv) {
     }
     for (int y = 0; y < n; y++) {
         for (int z = 0; z < n; z++) {
-            if (finish[z] == 0) { // checks if process is finished. (has all required Resources).
+            if (finish[z] == 0) { // checks if process is not finished. (doesn't have all required Resources).
                 int flag = 0;
                 for (int w = 0; w < m; w++) {
-                    if (need[z][w] > available[w]) {
+                    if (need[z][w] > available[w]) { // Process needs more Resources then that are Available
                         flag = 1; // process can't be finished (insufficent resources)
                         break;
                     }
