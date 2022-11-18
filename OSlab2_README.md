@@ -19,6 +19,10 @@ The Example system that is porvided has 5 processes (P0, P1, P2, P3, P4), 3 reso
 
 This System is in a Safe State because by using Banker's Algorithm and the Safety Algorithm are able to determine a safe sequence to complete the processes in. The safe sequence is on the bottom of the picture, which goes P1 -> P3 -> P4 -> P0 -> P2. No Deadlock would be encountered if you complete the Processes in this order. 
 
+# Additonal Example
+
+![testInput txt - dsarell1  SSH_ wasp cs kent edu  - Visual Studio Code 11_17_2022 8_52_53 PM](https://user-images.githubusercontent.com/116117025/202598828-1c063eb7-833c-4bb0-a54d-cbe6daa64cc6.png)
+
 # Conclusion
 
 Overall, this Assignment made a lot more sense to me and I feel like I get the material more than the last assigment. The Hardest part of the assigment for me was figuring out how to input the data from the data via an input file. I did some research and much trial and error but I think I came up with the right answer. The only aspect I wasn't sure about was if I also had to provide the number of processes and resources in the input file to. I decided not to implement it that way. I hope That Everything is good and if my explanations are true. In the end I tried my best and hope this is good.
