@@ -6,7 +6,7 @@ For Banker's Alogorithm There are 4 Important data structures that are needed. A
 
 In my Program I first take data from an Input file (called bankersInput.txt), which has all the values of the Allocation Matrix, Max Matrix, and the Available array. My Program only works if you provide the name of the input file on the console. It reads the Allocation Matrix into a 2-Dimensional array (Matrix), by using fscanf and a nested for loop; I also print out each value of the Allocation Matrix to the console. I do the same for the Max Matrix and also output each item to the console. I also do the same for the Available array but only use one for loop, and output them. After I get the input, I close the pointer to a FILE, that I opened to the the address of the input file. Next I make the safety algorithim and create two vectors/arrays called Finish and Answer. Finish is initalized to all 0's to the length of the amount of processes. This is because none of the processes are finished yet. (0 = False = not Finished). Answer is an array that would be used to store the correct order of processes to complete. Next I Initalize the Need Matrix by using a nested for loop to go through and input the values by subtracting the Allocation Matrix from the Max Matrix. 
 
-The Safety Algorithm goes like this:
+# The Safety Algorithm goes like this:
 
 First I created a 2 for loops to go through the number of processes. Next I have an if-statement to check if that process is not finished. If the process is not finished then I check if it can be finished. I use another for loop to go through each resource for that process; I use a if-statement to see if that process requires more resources than that are available. If the process requires more resources than there is available the process can not finish and a variable flag would be set to 1. Then it will go to the next process to repeat the process. If process requires less resources than there are available, then the Process can finish and flag stays at 0. Then it statisfies the condition in the next if-statement. Inside the if-statement, Answer the array is filled with what number Process finished. Then all the resources that have been allocated to that process are added to the Available array by use of a for loop. Finally, I update the finish array of what ever process number index to 1 to indicate that the process is finsihed. This will repeat as many times as needed, until all processes are finished.
 
@@ -19,4 +19,4 @@ The Example system that is porvided has 5 processes (P0, P1, P2, P3, P4), 3 reso
 
 This System is in a Safe State because by using Banker's Algorithm and the Safety Algorithm are able to determine a safe sequence to complete the processes in. The safe sequence is on the bottom of the picture, which goes P1 -> P3 -> P4 -> P0 -> P2. No Deadlock would be encountered if you complete the Processes in this order. 
 
-
+# Conclusion
